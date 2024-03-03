@@ -67,6 +67,7 @@
     display: flex;
     align-items:center ;
     gap: 50px;
+    position: relative;
     
     
 }
@@ -92,18 +93,18 @@ color: rgb(255, 255, 255);
 .nav-login-cart button:active{
     background: rgb(146, 158, 170);
 }
-/* .nav-cart-count{
+.nav-cart-count{
     width: 22px;
     height:22px;
     display:flex;
     justify-content: center;
     align-items: center;
     margin-top: -55px;
-    margin-left: 70px;
+    margin-left: 220px;
     font-size:15;
     border-radius: 10px;
     background-color: red;
     color: white;
-
+    position: absolute;
     
-} */
+}

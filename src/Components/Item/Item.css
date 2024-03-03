@@ -21,7 +21,22 @@
     font-weight: 500;
     text-decoration: line-through;
 }
-.item:hover {
+.item img:hover {
     transform: scale(1.05);
     transition: 0.6s;
+}
+.item button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15;
+    width: 100px;
+    height: 40px;
+    border-radius: 75px;
+    background: red;
+    margin-left: 170px;
+    margin-top: -10px;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
 }

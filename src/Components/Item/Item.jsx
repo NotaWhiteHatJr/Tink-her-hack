@@ -12,6 +12,9 @@ const Item = (props) => {
                 <div className="item-prices-old">
                     {props.old_price}
                 </div>
+                <button>
+                    Add to Cart
+                </button>
             </div>
         </div>
     );
