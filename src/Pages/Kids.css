@@ -1,0 +1,40 @@
+.kids{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 30px;
+    height: 70vh;
+ }
+ .kids h1{
+    margin-top: 100px;
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+ }
+ .kids hr{
+    width: 100px;
+    height: 6px;
+    border-radius: 10px;
+    background: rgb(33, 32, 51);
+ }
+ .kids-item{
+    
+    width:950px;
+    margin-top: 20px;
+    margin-left: 40px;
+    bottom: 20px;
+    display :flex;
+    gap: 10px;
+    p{
+        width:100%;
+    }
+
+ }
+ .kids-item img{
+    max-width: 100%; 
+    margin: 0 auto;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+ }
